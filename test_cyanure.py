@@ -20,10 +20,10 @@ if __name__=="__main__":
         layout="centered"
     )
 
-    st.title("Analyses pour déterminer la fillière de traitement adéquate")
+    st.title("Test de cyanure sur échantillon client_julie")
 
     st.write("Auteur : Brahim AIT OUALI  - Technicien chimiste")
-    st.write("GRV de résines AKZO non pompables")
+    st.write("Procédure")
     st.write("Pâteux visqueux non pompable")
    
     # Display the LOGO
@@ -37,19 +37,18 @@ if __name__=="__main__":
 
 
     
-    st.write("Photos du déchet")
-    st.image(img4, width=250)
+    st.write("Procédure")
+    st.image(procedure, width=250)
     st.image(img3, width=250)
     
-    st.write("Vidéos : texture du déchet")
-    video_file = open('video-resine.mp4', 'rb')
-    video_bytes = video_file.read()
-
-    st.video(video_bytes)
+ 
     
-    st.write("Point éclair = 115,0 °C")
-    st.image(img5)
-    st.write("Pas de chlore (test de flamme négatif au chlore)")
+
+   
+    
+    
+    st.image(6)
+    st.write("Pas de choloration constatée sur le papier ( test de cyanure négatif)")
   
 
 
