@@ -28,7 +28,7 @@ if __name__=="__main__":
    
     # Display the LOGO
     img1 = Image.open("IMG_PAPREC.jpg")
-    img2 = Image.open("IMG_RECYDIS.jfif") 
+    #img2 = Image.open("IMG_RECYDIS.jfif") 
     img3 = Image.open("1.jpg")
     img4 = Image.open("3.jpg")
    
