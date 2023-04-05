@@ -32,14 +32,14 @@ if __name__=="__main__":
     img3 = Image.open("1.jpg")
     img4 = Image.open("3.jpg")
    
-    st.sidebar.image(img1, width=250)
-    st.sidebar.image(img2, width=250)
+    #st.sidebar.image(img1, width=250)
+    #st.sidebar.image(img2, width=250)
 
 
     
     st.write("Procédure")
     st.image(procedure, width=250)
-    st.image(img3, width=250)
+    st.image(img3, width=250#
     
  
     
