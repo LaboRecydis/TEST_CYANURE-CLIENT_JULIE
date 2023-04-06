@@ -20,20 +20,15 @@ if __name__=="__main__":
         layout="centered"
     )
 
-    st.title(" Test cyanure - échantillon client_julie ")
+    st.title("Analyses pour déterminer la fillière de traitement adéquate")
 
     st.write("Auteur : Brahim AIT OUALI  - Technicien chimiste")
-    st.write("### I. Identification")
-    st.write(" PRODUCTEUR DU DECHET : -------------")
-    st.write("NUMERO DE BSD : -------------")
-    st.write(" : -------------")
-    
-    st.write("### II. Description de l'anomalie")
-    st.write(" : -------------")
+    st.write("GRV de résines AKZO non pompables")
+    st.write("Pâteux visqueux non pompable")
    
     # Display the LOGO
     img1 = Image.open("IMG_PAPREC.jpg")
-    img2 = Image.open("IMG_RECYDIS.png") 
+    img2 = Image.open("IMG_RECYDIS.jfif") 
     img3 = Image.open("photo_resine1.jpg")
     img4 = Image.open("photo_resine3.jpg")
     img5 = Image.open("photo_PE.jpg")
@@ -42,11 +37,11 @@ if __name__=="__main__":
 
 
     
-    st.write("### III. Photos")
+    st.write("Photos du déchet")
     st.image(img4, width=250)
     st.image(img3, width=250)
     
-    st.write("### IV. Vidéos")
+    st.write("Vidéos : texture du déchet")
     video_file = open('video-resine.mp4', 'rb')
     video_bytes = video_file.read()
 
@@ -55,7 +50,6 @@ if __name__=="__main__":
     st.write("Point éclair = 115,0 °C")
     st.image(img5)
     st.write("Pas de chlore (test de flamme négatif au chlore)")
-  
 
 
   
