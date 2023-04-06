@@ -20,16 +20,16 @@ if __name__=="__main__":
         layout="centered"
     )
 
-    st.title("Analyses pour déterminer la fillière de traitement adéquate")
+    st.title("Test cyanure client_julie")
 
     st.write("Auteur : Brahim AIT OUALI  - Technicien chimiste")
-    st.write("GRV de résines AKZO non pompables")
-    st.write("Pâteux visqueux non pompable")
+    st.write("Echantillon d'eaux souillées")
+   
    
     # Display the LOGO
     img1 = Image.open("IMG_PAPREC.jpg")
     img2 = Image.open("IMG_RECYDIS.jfif") 
-    #img3 = Image.open("photo_resine1.jpg")
+    img3 = Image.open("1.jpg")
     #img4 = Image.open("photo_resine3.jpg")
     #img5 = Image.open("photo_PE.jpg")
     st.sidebar.image(img1, width=250)
