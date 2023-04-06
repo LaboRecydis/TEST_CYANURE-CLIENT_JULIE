@@ -31,7 +31,7 @@ if __name__=="__main__":
     img2 = Image.open("IMG_RECYDIS.jfif") 
     
     img3= Image.open("echantillon.jpg")
-    #img4= Image.open("procedure.jpg")
+    img4= Image.open("procedure.jpg")
     #img5= Image.open("reactifs.jpg")
     #img6= Image.open("resultat.jpg")
     st.sidebar.image(img1, width=250)
