@@ -41,7 +41,7 @@ if __name__=="__main__":
     st.image(img3, width=250)
     
     st.write("Procédure")
-    st.image(img4, width=250)
+    st.image(img4, width=400)
     
     st.image(img5, width=250)
     
