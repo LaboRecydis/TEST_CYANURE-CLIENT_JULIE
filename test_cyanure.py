@@ -38,15 +38,15 @@ if __name__=="__main__":
 
 
     st.write("Echantillon d'eaux souillées")
-    st.image(img3, width=250)
+    st.image(img3, width=900)
     
     st.write("Procédure")
-    st.image(img4)
+    st.image(img4, width=900)
     
-    st.image(img5, width=250)
+    st.image(img5, width=900)
     
     st.write("Réultat")
-    st.image(img6, width=600)
+    st.image(img6, width=900)
     
     st.write("CONCLUSION: aucune coloration observée, pas de présence de cyanures")
     
