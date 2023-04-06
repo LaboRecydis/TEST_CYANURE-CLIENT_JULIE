@@ -23,7 +23,7 @@ if __name__=="__main__":
     st.title("Test cyanure client_julie")
 
     st.write("Auteur : Brahim AIT OUALI  - Technicien chimiste")
-    st.write("Echantillon d'eaux souillées")
+  
    
    
     # Display the LOGO
