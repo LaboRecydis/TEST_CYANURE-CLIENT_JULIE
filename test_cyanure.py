@@ -29,7 +29,7 @@ if __name__=="__main__":
     # Display the LOGO
     img1 = Image.open("IMG_PAPREC.jpg")
     img2 = Image.open("IMG_RECYDIS.jfif") 
-    img3 = Image.open("1.jpg")
+    #img3 = Image.open("1.jpg")
     img4 = Image.open("echantillon.jpg")
     #img5 = Image.open("photo_PE.jpg")
     st.sidebar.image(img1, width=250)
