@@ -20,35 +20,41 @@ if __name__=="__main__":
         layout="centered"
     )
 
-    st.title("Test de cyanure sur échantillon client_julie")
+    st.title(" Fiche de non conformité ")
 
     st.write("Auteur : Brahim AIT OUALI  - Technicien chimiste")
-    st.write("Procédure")
-    st.write("Pâteux visqueux non pompable")
+    st.write("### I. Identification")
+    st.write(" PRODUCTEUR DU DECHET : -------------")
+    st.write("NUMERO DE BSD : -------------")
+    st.write(" : -------------")
+    
+    st.write("### II. Description de l'anomalie")
+    st.write(" : -------------")
    
     # Display the LOGO
     img1 = Image.open("IMG_PAPREC.jpg")
-    #img2 = Image.open("IMG_RECYDIS.jfif") 
-    img3 = Image.open("1.jpg")
-    img4 = Image.open("3.jpg")
-   
-    #st.sidebar.image(img1, width=250)
-    #st.sidebar.image(img2, width=250)
+    img2 = Image.open("IMG_RECYDIS.jfif") 
+    img3 = Image.open("photo_resine1.jpg")
+    img4 = Image.open("photo_resine3.jpg")
+    img5 = Image.open("photo_PE.jpg")
+    st.sidebar.image(img1, width=250)
+    st.sidebar.image(img2, width=250)
 
 
     
-    st.write("Procédure")
-    st.image(procedure, width=250)
-    st.image(img3, width=250#
+    st.write("### III. Photos")
+    st.image(img4, width=250)
+    st.image(img3, width=250)
     
- 
-    
+    st.write("### IV. Vidéos")
+    video_file = open('video-resine.mp4', 'rb')
+    video_bytes = video_file.read()
 
-   
+    st.video(video_bytes)
     
-    
-    st.image(6)
-    st.write("Pas de choloration constatée sur le papier ( test de cyanure négatif)")
+    st.write("Point éclair = 115,0 °C")
+    st.image(img5)
+    st.write("Pas de chlore (test de flamme négatif au chlore)")
   
 
 
