@@ -46,7 +46,7 @@ if __name__=="__main__":
     st.image(img5, width=250)
     
     st.write("Réultat")
-    st.image(img6, width=250)
+    st.image(img6, width=600)
     
     st.write("CONCLUSION: aucune coloration observée, pas de présence de cyanures")
     
