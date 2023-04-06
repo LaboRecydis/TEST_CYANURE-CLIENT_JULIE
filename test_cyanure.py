@@ -29,7 +29,6 @@ if __name__=="__main__":
     # Display the LOGO
     img1 = Image.open("IMG_PAPREC.jpg")
     img2 = Image.open("IMG_RECYDIS.jfif") 
-    
     img3= Image.open("echantillon.jpg")
     img4= Image.open("procedure.jpg")
     img5= Image.open("réactifs.jpg")
@@ -38,8 +37,18 @@ if __name__=="__main__":
     st.sidebar.image(img2, width=250)
 
 
-    
+    st.write("Echantillon d'eaux souillées")
     st.image(img3, width=250)
+    
+    st.write("Procédure")
+    st.image(img4, width=250)
+    
+    st.image(img5, width=250)
+    
+    st.write("Réultat")
+    st.image(img6, width=250)
+    
+     st.write("CONCLUSION: aucune coloration observée, pas de présence de cyanures")
     
 
 
