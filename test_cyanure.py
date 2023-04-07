@@ -29,6 +29,10 @@ if __name__=="__main__":
     # Display the LOGO
     img1 = Image.open("IMG_PAPREC.jpg")
     img2 = Image.open("IMG_RECYDIS.jfif") 
+    img3 = Image.open("echantillon.jpg")
+    img4 = Image.open("procedure.jpg")
+    img5 = Image.open("réactifs.jpg")
+    img4 = Image.open("resultat.jpg")
     
     st.sidebar.image(img1, width=250)
     st.sidebar.image(img2, width=250)
